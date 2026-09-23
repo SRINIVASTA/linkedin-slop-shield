@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 280px; padding: 15px; font-family: system-ui, sans-serif; }
+    h3 { margin-top: 0; color: #333; }
+    input { width: 92%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
+    button { background: #0073b1; color: white; border: none; padding: 8px 14px; border-radius: 4px; cursor: pointer; font-weight: bold; width: 100%; }
+    button:hover { background: #005582; }
+    .status { font-size: 12px; color: green; margin-top: 5px; display: none; }
+  </style>
+</head>
+<body>
+  <h3>Slop Shield Settings</h3>
+  <input type="password" id="apiKey" placeholder="Enter TypeSafe API Key">
+  <button id="save">Save Settings</button>
+  <div id="status" class="status">Key saved successfully!</div>
+  <script src="options.js"></script>
+</body>
+</html>
